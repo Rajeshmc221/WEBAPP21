@@ -1,0 +1,219 @@
+Snapshot: A managed disk snapshot is a read-only crash-consistent full copy of a managed disk that is stored as a standard managed disk by default. With snapshots, you can back up your managed disks at any point in time. These snapshots exist independent of the source disk and can be used to create new managed disks.
+
+Snapshots are billed based on the used size. For example, if you create a snapshot of a managed disk with provisioned capacity of 64 GiB and actual used data size of 10 GiB, that snapshot is billed only for the used data size of 10 GiB. You can see the used size of your snapshots by looking at the Azure usage report. For example, if the used data size of a snapshot is 10 GiB, the daily usage report will show 10 GiB/(31 days) = 0.3226 as the consumed quantity.
+
+Image: Managed disks also support creating a managed custom image. You can create an image from your custom VHD in a storage account or directly from a generalized (sysprepped) VM. This process captures a single image. This image contains all managed disks associated with a VM, including both the OS and data disks. This managed custom image enables creating hundreds of VMs using your custom image without the need to copy or manage any storage accounts.
+
+
+Images versus snapshots
+It's important to understand the difference between images and snapshots. With managed disks, you can take an image of a generalized VM that has been deallocated. This image includes all of the disks attached to the VM. You can use this image to create a VM, and it includes all of the disks.
+
+A snapshot is a copy of a disk at the point in time the snapshot is taken. It applies only to one disk. If you have a VM that has one disk (the OS disk), you can take a snapshot or an image of it and create a VM from either the snapshot or the image.
+
+A snapshot doesn't have awareness of any disk except the one it contains. This makes it problematic to use in scenarios that require the coordination of multiple disks, such as striping. Snapshots would need to be able to coordinate with each other and this is currently not supported.
+
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_07-Manage_Azure_Storage.md
+
+https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/blob/master/Instructions/AZ-301T03_Lab_Mod01_Getting%20Started%20with%20Azure%20Resource%20Manager%20Templates.md
+
+https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/blob/master/Instructions/AZ-301T02_Lab_Mod03_Deploying%20Configuration%20Management%20solutions%20to%20Azure.md
+
+https://github.com/Azure/azure-quickstart-templates
+
+
+w email address.
+Pritish.saha@teleperformanceusa.com
+Shruti.tawar@teleperformanceusa.com
+
+
+Policy Repo Rate	: 4.00%
+Reverse Repo Rate	: 3.35%
+Marginal Standing Facility Rate	: 4.25%
+Bank Rate	: 4.25%
+
+CRR	: 3%
+SLR	: 18.00%
+
+Base Rate	: 7.30% - 8.80%
+MCLR (Overnight)	: 6.55% - 7.05%
+Savings Deposit Rate	: 2.70% - 3.00%
+Term Deposit Rate > 1 Year	: 4.90% - 5.50%
+
+Karnataka Bank Limited is India's twelfth largest private sector bank. It is an 'A' Class Scheduled Commercial Bank based in Mangaluru in Karnataka, India. Karnataka Bank Limited has a network of 862 branches, 1,026 ATMs and 454 e-lobbies/mini e-lobbies across 22 states and 2 union territories. It has 8,509 employees and over 11 million customers throughout the country. Its shares are privately owned by over 1,46,000 shareholders. The tagline of the bank is "Your Family Bank Across India".[2][3]
+est 18 February 1924; 97 years ago.
+National Pistachio Day	Food & Beverage	Food
+National Skip the Straw Day	Environmental	Awareness, Conservation, Environment
+Yukon Heritage Day	Fun
+Nationalisation of banks means to take the banks under government undertaking. Banks after nationalisation comes directly under Banking regulation Act 1949.
+
+Rajeshwar Rao as Deputy Governor.
+sakthikanth das governor.
+What is Cheque Truncation System (CTS)?
+
+Check truncation: should be done by sep 2021
+
+Under this process, the issuer of the cheque submits electronically details related to the cheque presented for clearings, such as the cheque number, cheque date, payee name, account number, amount, and other details against a list of cheques previously authorized and issued by the issuer.
+India’s real GDP (Gross Domestic Product)is estimated to contract by 7.7% in 2020-21, compared to a growth rate of 4.2% in 2019-20, with Real GVA (Gross Valued added) shrinking by 7.2%, as per advance estimates released by the National Statistical Office (NSO) on Thursday.
+
+ Gross domestic product (GDP) is the monetary value of all finished goods and services made within a country during a specific period.
+Gross National Product (GNP) is the total value of all finished goods and services produced by a country's citizens in a given financial year, irrespective of their location.
+
+The services sector accounts for 53.66% of total India's GVA of Rs. 137.51 lakh crore. The industrial sector is at the second spot and contributing around 31% of the Indian GDP. The agriculture sector is at the third spot and contributing around 16% of the Indian GDP.
+
+• Contribution of the banking sector
+to GDP is about 7.7% of GDP.
+
+Definition: Initial public offering is the process by which a private company can go public by sale of its stocks to general public.
+Initial public offering or stock market launch is a type of public offering in which shares of a company are sold to institutional investors and usually also retail investors. 
+
+ECGC
+ Export Credit Guarantee Corporation of India. This
+organisation provides risk as well as insurance cover to
+the Indian exporters.
+
+Foreign Institutional Investor (FII) is similar to FDI in a way that this is also direct investment but
+investment in only financial assets such as stocks, bonds etc. of a company located in another country.
+Example: Any foreign company invests in the shares of Infosys (based in India).
+
+What do you mean by term “CASA” related to bank?
+CASA stands for Current Account Savings Account. The
+CASA ratio shows how much deposit a bank has in the
+form of current & saving account deposits in the total
+deposit. A higher CASA ratio means better operating
+efficiency of the bank
+
+Liquidity is a measure of the cash and other assets banks have available to quickly pay bills and meet short-term business and financial obligations.
+NABARD is an apex development bank, established in 1982 by a Special Act of the Parliament, with a
+mandate to uplift rural India by facilitating credit flow in agriculture, cottage and village industries,
+handicrafts and small-scale industries. NABARD functions to promote sustainable rural development for
+attaining prosperity of rural areas in India.
+
+Know your customer(KYC)
+It is a process by which banks obtain information about the identity and address of the customers. It
+helps to ensure that services of the banks are not misused.
+
+A balance sheet is a snapshot of a business' financial position on one particular day.
+● It provides a summary of what a business owns or is owed.
+
+Mutual funds are investment avenues that pool the
+money of several investors to invest in financial
+instruments such as stocks, debentures etc. The profit
+earned on the investments is distributed among the
+investors on the basis of the units held by each of
+them. 
+
+Credit Rating Agency
+: RBI rates the banks on a 5 point scale of A
+to E, widely on the lines of international CAMELS rating
+model for domestic banks & CALCS model for foreign banks.
+
+Liquidity Adjustment Facility (LAF) was introduced by RBI
+during June, 2000 in phases, to ensure smooth transition &
+keeping pace with technological upgradation.
+Tenor: Reverse Repo auctions (for absorption of liquidity)
+& Repo auctions (for injection of liquidity) are conducted on
+a daily basis (except Saturdays). 
+
+Plastic Money
+Different types of plastic money available in the market today. Be it credit cards, debit cards,charge cards,
+co-branded cards. More and more Indians are using them as a convenient mode of payment.
+Debit Card: Money you are spending is your own and is drawn from an account you have with the
+bank/institution issuing you the debit card. No money in that account? No spendy.
+
+ Demat Account: The term "demat", in India, refers to a
+dematerialised account for individual Indian citizens to
+trade in listed stocks or debentures.
+
+ SBI old name --- imperial bank of india
+
+NPCI (National Payments Corporation of India)
+NPCI is an umbrella organization for all retail payments system in India. It was set up with the guidance and
+support of the Reserve Bank of India (RBI) and Indian Banks’ Association (IBA).
+
+Deficit financing is the budgetary situation where expenditure is higher than the revenue. It is a practice adopted for financing the excess expenditure with outside resources.
+
+Financial inclusion is defined as the availability and equality of opportunities to access financial services. It refers to a process by which individuals and businesses can access appropriate, affordable, and timely financial products and services. These include banking, loan, equity, and insurance products.
+
+The current Finance Secretary is Ajay Bhushan Pandey.
+
+Introduction: Banking Correspondents (BCs) are individuals/entities engaged by a bank in India (commercial banks, Regional Rural Banks (RRBs) and Local Area Banks (LABs)) for providing banking services in unbanked / under-banked geographical territories.
+
+Merchant banking is a combination of banking and consultancy services. It provides consultancy to its clients for financial, marketing, managerial and legal matters. Consultancy means to provide advice, guidance and service. It helps a business person to start a business. It helps to raise (collect) helps finance 
+
+An automated teller machine (ATM)
+
+NPA - Impact
+
+The non-recovery of loans effects not only further availability of credit but also financial soundness of the banks. Profitability: NPAs put detrimental impact on the profitability as banks stop to earn income on one hand and attract higher provisioning compared to standard assets on the other hand.
+
+Statutory Liquidity Ratio (SLR) is the govt term for the reserve demand that commercial banks are required to maintain in the form of cash, gold reserves, Reserve Bank of India (RBI) approved securities before giving credit to the customers. It is directed under Section 24 of the Banking Regulation Act, 1949. The SLR is determined by the RBI. It is usually used to control inflation and fuel growth, by increasing and decreasing the money supply. It controls the credit growth in India. 
+When the SLR is high, banks have less money for commercial operations and hence less money to lend out. When this happens, home loan interest rates often rise. When the SLR is low, similarly, home loan interest rates are likely to fall.
+
+Self help groups refer to group of 15-20 people (generally women) , who pool or collect their resources
+like money so as to help each other in times of need. Self help groups give loans to its members at a
+general interest rate which is less than interest rate of moneylenders.Self help groups are also able to
+take loans from bank when they have pooled good amount of money
+
+The RBI acts as the custodian of the country’s foreign exchange reserves, manages exchange control and acts as the agent of the government in respect of India’s membership of the IMF.
+
+Current Account Deficit (CAD) is the shortfall between the money received by selling products to other countries and the money spent to buy goods and services from other nations. If the value of goods and services we import exceeds the value of those we export, the country is said to be in a deficit, and the difference in the two values is CAD.
+
+Now what are Demand and Time Liabilities?
+Demand Liabilities
+Current Deposits, Savings bank deposits, Margins held against letters of credit/guarantees, Balances in
+overdue fixed deposits, Outstanding DDs, Unclaimed deposits, Credit balances in the Cash Credit account
+and deposits held as security for advances which are payable on demand & Money at Call and Short Notice
+from outside the Banking System (Liability to others).
+Time Liabilities
+Fixed deposits, cash certificates, cumulative and recurring deposits, time liabilities portion of savings bank
+deposits, staff security deposits, margin held against letters of credit, if not payable on demand, & deposits
+held as securities for advances which are not payable on demand and Gold deposits.
+
+If the RBI prints new currency then the supply of currency will increase in the country which will further increase the inflation in the country. Suppose if the money supply increased to 50% then the price of general prices like bread, butter, clothing, house etc. will also increase proportionately 50%
+
+Money Market Vs. Capital Market: An Overview
+The money market and the capital market are not single institutions but two broad components of the global financial system.
+
+
+The money market is the trade in short-term debt. It is a constant flow of cash between governments, corporations, banks, and financial institutions, borrowing and lending for a term as short as overnight and no longer than a year.
+The capital market encompasses the trade in both stocks and bonds. These are long-term assets bought by financial institutions, professional brokers, and individual investors.
+
+
+Core Banking Solution (CBS) is centralized Banking Application software. It has several components
+which have been designed to meet the demands of the banking industry
+
+, customers can access their accounts and perform certain transactions from
+any of the bank’s branches.
+
+ Name of the Vendor : Software
+ Infosys : Finacle
+ TCS : Quartz
+
+As per the mega consolidation plan, Oriental Bank of Commerce and United Bank of India will merge into Punjab National Bank (PNB); Syndicate Bank into Canara Bank; Andhra Bank and Corporation Bank into Union Bank of India; and Allahabad Bank into Indian Bank
+
+Scale. A bank merger helps your institution scale up quickly and gain a large number of new customers instantly. ...
+Efficiency. ...
+Business Gaps Filled. ...
+Talent And Team Upgrade. ...
+Poor Culture Fit. ...
+Not Enough Commitment. ...
+Customer Impact And Perception. ...
+Compliance And Risk Consistency.
+
+In a nutshell, the cooperative banks are brought under the RBI's close supervision and regulation for improved governance and protection of depositors' interest.
+
+The Securitisation and Reconstruction of Financial Assets and Enforcement of Securities Interest Act, 2002 is an Indian law. It allows banks and other financial institution to auction residential or commercial properties to recover loans.
+
+Recording Non-Performing Assets (NPA)
+Banks are required to classify nonperforming assets into one of three categories according to how long the asset has been non-performing: sub-standard assets, doubtful assets, and loss assets.
+
+A sub-standard asset is an asset classified as an NPA for less than 12 months. A doubtful asset is an asset that has been non-performing for more than 12 months. Loss assets are loans with losses identified by the bank, auditor, or inspector that need to be fully written off. They typically have an extended period of non-payment, and it can be reasonably assumed that it will not be repaid.
+
+ Ifl ex Solutions : Flex Cube
+
+
+
+
+
+
+
